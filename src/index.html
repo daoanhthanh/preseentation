@@ -374,7 +374,7 @@ Dựa theo quy mô dự án eeeCLOUD, và điều kiện nhân lực, không ph�
 2. Ràng buộc
 3. Phạm vi ngữ cảnh
 4. Cross-cutting Concept
-5. Block view (module)
+5. Building block view
 6. Runtime view
 7. Rủi ro và nợ kỹ thuật
 8. Chú giải (Ubiquitous Language)
@@ -1034,7 +1034,7 @@ E sưu tầm 1 vài gợi ý để dễ dàng hơn cho người viết tài li�
 
 </div>
 
-5. Block view (module)
+5. Building block view
 
 <img src="standard/don_hang/_assets/block_view.png" alt="" style="object-fit: scale-down">
 
@@ -1050,7 +1050,7 @@ E sưu tầm 1 vài gợi ý để dễ dàng hơn cho người viết tài li�
 
 <div class="mini-header" style="color:black">
 
-5. Block view (module)
+5. Building block view
 
 </div>
 
@@ -1071,7 +1071,7 @@ E sưu tầm 1 vài gợi ý để dễ dàng hơn cho người viết tài li�
 
 <div class="mini-header">
 
-5. Block view (module)
+5. Building block view
 
 </div>
 
@@ -1094,7 +1094,7 @@ E sưu tầm 1 vài gợi ý để dễ dàng hơn cho người viết tài li�
 
 <div class="mini-header">
 
-5. Block view (module)
+5. Building block view
 
 </div>
 
@@ -1197,7 +1197,7 @@ Hình thức thực hiện:
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 <div class="mini-header al">
-5. Block view (module) 
+5. Building block view 
    <br></br>
 6. Runtime view
 </div>
@@ -1337,270 +1337,6 @@ Tất cả các cách làm em sẽ demo ở phần thứ 2 của buổi hôm nay
 ~ 15p
 
 ------------------------------------------------------------------------------------------------
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<div class="note">
-
-- nhận thấy có một vài nơi nội dung bị chồng chéo lên nhau, vậy phân chia như thế nào cho khoa học
-- 
-
-- Business overview
-
-  (eeeCloud là gì, giải quyết vấn đề gì, khách hàng là ai)
-
-- Trả lời: giải quyết vấn đề gì
-
-</div>
-
-<div class="compact al">
-<div class="callout callout-color-default">
-<div class="callout-title">
-<div class="callout-icon">
-
-<i class="fas fa-pencil-alt" ></i>
-
-
-</div>
-<div class="callout-title-inner">
-
-Ghi chú
-
-</div>
-</div>
-<div class="callout-content">
-
-Dịch mấy trang đầu của tài liệu eeeCLOUDmanual
-
-</div>
-</div>
-</div>
-
-<div class="hidden">
-Giống tài liệu manual, chỉ cần dịch lại ra tiếng Việt. Hai cái đầu cần anh Sơn, c Nhung, hoặc a Vương thì hoàn hảo. Vì a có kiến thức, kn, tr ng thực tế, nên có thể dịch thoát ý dễ dàng.
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<div class="mini-header">
-
-#### Cấu trúc tài liệu dự án
-
-</div>
-
-**2. Chi tiết từng usecase**
-
-<div class="hidden">
-Lẽ tất nhiên, đầu tiên ta phải mô tả hệ thống sẽ xử lý usecase này như nào. Có nhiều cách: viết, vẽ, nói mồm (chúng em trước giờ được giải thích).
-
-
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<div class="mini-header">
-
-##### 2. Chi tiết từng usecase
-
-</div>
-
-<img src="standard/don_hang/_assets/bsFlow_hien_tai.png" alt="" style="object-fit: scale-down">
-
-<i class="note">Business Flow của hệ thống hiện tại</i>
-
-<div class="hidden">
-
-- Hiện tài liệu manual cũng đang có đề cập, tuy nhiên, có 2 vấn đề
-- 1. Những hình vẽ chưa được thiết kế để có thể hiều toàn bộ một luồng đi
-- 2. Được viết bằng tiếng Nhật, cho người Nhật => khó để hiểu với những người chưa có kinh nghiệm và k có tiếng Nhật.
-
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<div class="mini-header">
-
-##### 2. Chi tiết từng usecase
-
-</div>
-
-
-Domain story telling
-
-<img src="standard/don_hang/_assets/qua_trinh_tao_don_xuat_hang_demo.svg" alt="" style="object-fit: scale-down">
-
-
-<div class="note">Vẽ lại sử dụng kỹ thuật Domain story telling</div>
-
-
-<div class="hidden">
-
-E giới thiệu một cách thức mô tả rất hay và đơn giản. Gọi là **Domain Story telling**. Một lát nữa em sẽ mô tả chi tiết hơn về phương thức này.
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<div class="mini-header">
-
-##### 2. Chi tiết từng usecase
-
-</div>
-
-Flowchart tổng quan
-
-<img src="standard/don_hang/_assets/ngu_canh_nghiep_vu.svg" alt="" style="object-fit: scale-down">
-
-<div class="hidden">
-Sau khi mô tả bussiness của 
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Chi tiết từng usecase
-
-1. Domain story telling
-
-<div class="hidden">
-Một lát nữa em sẽ giới thiệu với mọi người cách thức này
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Chi tiết từng usecase
-
-1. Domain story telling
-2. Flowchart chi tiết
-3. Flowchart tổng quan (**_Solution Strategy_**)
-4. Lưu ý nếu có (_side effect, vấn đề cần cải thiện_)
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<div class="checkbox">
-
-- [ ] fsdfsd
-- [x] dsfsd
-- [ ] fsd
-- [ ] fs
-- [ ] dfs
-- [ ] df
-
-## </div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Cấu trúc
-
-1. Giới thiệu tổng quan
-2. Kiến trúc tổng quát
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Cấu trúc
-
-1. Giới thiệu tổng quan
-2. Kiến trúc tổng quát
-3. Cách hệ thống cấu trúc code
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Cấu trúc
-
-1. Giới thiệu tổng quan
-2. Kiến trúc tổng quát
-3. Cách hệ thống cấu trúc code
-
-<div class="compact al">
-
-<div class="callout callout-color1">
-<div class="callout-title">
-<div class="callout-icon">
-
-<i class="fas fa-info-circle" ></i>
-
-
-</div>
-<div class="callout-title-inner">
-
-Thông tin
-
-</div>
-</div>
-<div class="callout-content">
-
-Hoàn thành nội dung ở trang Tổng quan hệ thống
-
-</div>
-</div>
-
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Không chung domain
-
-1. Mất công giải thích
-2. Thời gian trao đổi lâu
-3.
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-# Công cụ
-
-[Obsidian](https://obsidian.md/download)
-
-<div class="hidden">
-1. Công cụ ghi chú rất mạnh mẽ nhưng rất dễ dùng, phù hợp cho tất cả mọi người trong team, kể cả low tech như chị Nhung. Hãy hình dung nó là sự kết hợp tính năng chính của cả Word + Excel + Powerpoint. Do vậy việc làm quen gần như không mất thời gian.
-
-2. Có những tính năng rất phù hợp để hệ thống hóa những tính năng phức tạp. Sẽ nói sau đây
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Tính năng Obsidian
-
-1. Graphview
-
-<img src="standard/don_hang/_assets/demo_gv.png" alt="" style="object-fit: scale-down">
-
-
-<div class="hidden">
-
-Tính năng graph view, cho phép hình dung mối quan hệ giữa các ghi chú. Nó rất thân thiện với cách chúng ta tư duy, do vậy cực phù hợp để làm hệ thống tài liệu, đặc biệt cho những hệ thống phức tạp như eeeCloud 2. Có tất cả tính năng của word + excel + powerpoint
-
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Tính năng Obsidian
-
-1. Graphview
-
-<div class="c-col">
-
-<img src="standard/don_hang/_assets/demo_obsidian_link.png" alt="" style="object-fit: scale-down">
-
-
-<img src="standard/don_hang/_assets/demo_graph.png" alt="" style="object-fit: scale-down">
-
-
-</div>
-
-<div class="hidden">
-Giải thích ngắn ngọn cách ta đạt được điều này
-q
---- Giải thích cú pháp: Một file có tên xXx, muốn kết nối với file yYy
-
-Tại sao lại nối standard với MKCE,... Sẽ demo và giải thích vào cuối bài
-
-Nhưng chắc mọi người nhìn vào đây cũng đoán ra được ý tưởng phải không ạ?
-
-</div>
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### Tính năng Obsidian
-
-2. Text-to-graph
 </div></script></section></div>
     </div>
 
